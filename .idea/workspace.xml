@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60c28770-dc54-4bad-accc-d2f93802a351" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lNX66cuXlfxmXUxp6Ldgz6NCc5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Desktop\SoPekocko\backend\controllers" />
+      <recent name="C:\Users\David\Desktop\SoPekocko\backend\Security" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c28770-dc54-4bad-accc-d2f93802a351" name="Default Changelist" comment="" />
+      <created>1607438369908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607438369908</updated>
+      <workItem from="1607438374176" duration="720000" />
+      <workItem from="1607440065783" duration="838000" />
+      <workItem from="1607457277184" duration="6228000" />
+      <workItem from="1607534597145" duration="4494000" />
+      <workItem from="1607605375448" duration="873000" />
+      <workItem from="1607615731290" duration="629000" />
+      <workItem from="1607696772689" duration="7087000" />
+      <workItem from="1607871098598" duration="6526000" />
+      <workItem from="1607890764989" duration="5059000" />
+      <workItem from="1607954816826" duration="3914000" />
+      <workItem from="1607973500698" duration="2642000" />
+      <workItem from="1607978145446" duration="5000" />
+      <workItem from="1608048930265" duration="13091000" />
+      <workItem from="1608066617693" duration="3614000" />
+      <workItem from="1608150362176" duration="798000" />
+      <workItem from="1608216774211" duration="6333000" />
+      <workItem from="1608303567944" duration="6133000" />
+      <workItem from="1608558533425" duration="5640000" />
+      <workItem from="1608577522364" duration="8131000" />
+      <workItem from="1608655630917" duration="2989000" />
+      <workItem from="1608739216124" duration="7122000" />
+      <workItem from="1608986431994" duration="7859000" />
+      <workItem from="1609162577951" duration="1457000" />
+      <workItem from="1609263983927" duration="15599000" />
+      <workItem from="1609704250077" duration="3150000" />
+      <workItem from="1609767877725" duration="3137000" />
+      <workItem from="1609850818487" duration="333000" />
+      <workItem from="1609872850078" duration="8214000" />
+      <workItem from="1610023854492" duration="5276000" />
+      <workItem from="1610304655578" duration="7417000" />
+      <workItem from="1610313801316" duration="2893000" />
+      <workItem from="1610371442098" duration="6534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607440615867">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1607440615867" />
+    <state x="549" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610320868374">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="549" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1610320868374" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610321822124">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610321822124" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1607875330473">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1607875330473" />
+  </component>
+</project>
