@@ -9,8 +9,10 @@ const tokenSecurity = require('../Security/key');
 
 //Enregistrement d'un utilisateur.
 exports.signup = (req, res, next) => {
+    //Récupération du contenue du champs password.
     let mdp = req.body.password;
-    if (/[a-z]/ && /[A-Z]/ && /[1-9]/ && /[&$£%!§]/.test(mdp) === true) {
+    //Condition pour une inscription valid.
+    if (/[a-z]/ && /[A-Z]/ && /[1-9]/ && /[&$£%!§]/.test(mdp) === true && mdp.length >= 8) {
         bcrypt.hash(req.body.password, 10)
             .then(hash => {
                 const user = new User({
@@ -23,8 +25,9 @@ exports.signup = (req, res, next) => {
             })
             .catch(error => res.status(500).json({error}));
     } else {
-        if (/[a-z]/ && /[A-Z]/ && /[1-9]/ && /[&$£%!§]/.test(mdp) === false) {
-            console.log("Veuillez renseigner un mots de passe contenant aux moins une majuscule, une minuscule, un chiffre et un symbole '&$£%!§'.")
+        //Condition si inscription non compléte.
+        if (/[a-z]/ && /[A-Z]/ && /[1-9]/ && /[&$£%!§]/.test(mdp) === false && mdp.length <= 8) {
+            console.log("Veuillez renseigner un mots de passe contenant aux moins une majuscule, une minuscule, un symbole '&$£%!§' et aux moins 8 caractères.")
         }
     }
 }

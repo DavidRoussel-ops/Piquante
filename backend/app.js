@@ -1,19 +1,25 @@
 //Constante qui appel express.
 const express = require('express');
-//Constante qui appel body parser
+//Constante qui appel body parser.
 const bodyParser = require('body-parser');
 //Constante qui appel path.
 const path = require('path');
+//Constante qui appel express-mongo-sanitize.
 const mongoSanitize = require('express-mongo-sanitize');
+//Constante qui appel node-esapi.
 const esapi = require('node-esapi');
+//Constante qui appel toobusy-js.
 const toobusy = require('toobusy-js');
+//Constante qui appel express-brute.
 const expressBrute = require('express-brute');
+//Constante qui appel rate-limiter.
 const {RateLimiter} = require("rate-limiter");
 
 //Constante qui appel la route des fonctions sauce.
 const stuffRoutes = require('./routes/stuff');
 //Constante qui appel la route des utilisateurs.
 const userRoutes = require('./routes/user');
+//Constante qui appel le dossier de sécurité.
 const mongoRoutes = require('./Security/mongo');
 
 
@@ -28,6 +34,7 @@ app.use((req, res, next) => {
     next();
 });
 
+//Vérification du nombre d'essai de connexion.
 let getLimiter = new RateLimiter();
 getLimiter.addLimit('/login', 'GET', 5, 500);
 
@@ -39,6 +46,7 @@ app.use(mongoSanitize());
 app.use(mongoSanitize({
     replaceWith: '_'
 }))
+
 
 let store = new expressBrute.MemoryStore();
 let bruteForce = new expressBrute(store);
