@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60c28770-dc54-4bad-accc-d2f93802a351" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/images/ketchup.jpg1610029719094.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoPekocko" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,7 +116,10 @@
       <workItem from="1610476210917" duration="8355000" />
       <workItem from="1610643915663" duration="3970000" />
       <workItem from="1610653297537" duration="1215000" />
-      <workItem from="1610719471197" duration="1642000" />
+      <workItem from="1610719471197" duration="1926000" />
+      <workItem from="1610737822762" duration="56000" />
+      <workItem from="1610904332492" duration="617000" />
+      <workItem from="1610913653690" duration="536000" />
     </task>
     <servers />
   </component>
@@ -149,10 +151,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610321822124" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1610397281657">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1610904387556">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610397281657" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610904387556" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1610720568607">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

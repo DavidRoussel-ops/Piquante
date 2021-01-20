@@ -14,6 +14,10 @@ const toobusy = require('toobusy-js');
 const expressBrute = require('express-brute');
 //Constante qui appel rate-limiter.
 const {RateLimiter} = require("rate-limiter");
+//Constante qui appel helmet.
+const helmet = require("helmet");
+//Constante qui appel helmet-csp.
+const csp = require("helmet-csp");
 
 //Constante qui appel la route des fonctions sauce.
 const stuffRoutes = require('./routes/stuff');
@@ -33,6 +37,29 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
     next();
 });
+
+//Utilisation du module helmet pour passer en https.
+app.use(helmet.hsts());
+//Détermine si une page peut être chargée via un frame ou un iframe.
+app.use(helmet.frameguard({ action : 'SAMEORIGIN'}));
+//Indique au navigateur de ne pas modifier les types MIME de l'en-tête "Content-Type".
+app.use(helmet.noSniff());
+//Utilisation d'helmet-csp pour prévenir des attaque XSS et du Clickjacking.
+app.use(csp({
+    directives : {
+        defaultSrc : ["'self'"], //Valeur par default.
+        scriptSrc : ["'self'"], //Prévention attaque XSS.
+        frameAncestors : ["'none'"], //Prévention attaque Clickjacking.
+        imgSrc : ["'self'"],
+        styleSrc : ["'none'"]
+    }
+}));
+//Empêche les navigateurs de mettre en cache les réponses données.
+app.use(helmet.noCache());
+//Empêche Internet Explorer d'exécuter les fichiers télécaharger dans le contexte du site.
+app.use(helmet.ieNoOpen());
+//Evite la fuite d'information des technologies utilisée côté serveur.
+app.use(helmet.hidePoweredBy({ setTo : 'PHP 4.2.0'}));
 
 //Vérification du nombre d'essai de connexion.
 let getLimiter = new RateLimiter();

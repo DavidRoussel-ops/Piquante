@@ -29,6 +29,8 @@ Une fois l'application installer ouvrir deux terminal un pour le frontend utilis
 * Toobusy-js: 0.5.1  
 * Express-brute: 1.0.1  
 * Rate-limiter: 0.2.0  
+* Helmet: 4.4.1  
+* Helmet-csp: 3.3.1   
 
 # Note de securité
 
