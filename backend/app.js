@@ -18,6 +18,9 @@ const {RateLimiter} = require("rate-limiter");
 const helmet = require("helmet");
 //Constante qui appel helmet-csp.
 const csp = require("helmet-csp");
+//Constante qui appel nocache
+const nocache = require ('nocache')
+
 
 //Constante qui appel la route des fonctions sauce.
 const stuffRoutes = require('./routes/stuff');
@@ -55,7 +58,7 @@ app.use(csp({
     }
 }));
 //Empêche les navigateurs de mettre en cache les réponses données.
-app.use(helmet.noCache());
+app.use(nocache())
 //Empêche Internet Explorer d'exécuter les fichiers télécaharger dans le contexte du site.
 app.use(helmet.ieNoOpen());
 //Evite la fuite d'information des technologies utilisée côté serveur.

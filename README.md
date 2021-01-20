@@ -30,7 +30,8 @@ Une fois l'application installer ouvrir deux terminal un pour le frontend utilis
 * Express-brute: 1.0.1  
 * Rate-limiter: 0.2.0  
 * Helmet: 4.4.1  
-* Helmet-csp: 3.3.1   
+* Helmet-csp: 3.3.1  
+* Nocache: 2.1.0    
 
 # Note de securité
 
