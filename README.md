@@ -33,8 +33,3 @@ Une fois l'application installer ouvrir deux terminal un pour le frontend utilis
 * Helmet-csp: 3.3.1  
 * Nocache: 2.1.0    
 
-# Note de securité
-
-Pour une question de sécurité la totalité du code de l'application n'est pas disponible.  
-Pour plus d'information veuillez vous adressez au responsable projet à cette adresse contact.sophie-sopekocko@gmail.com.
-
